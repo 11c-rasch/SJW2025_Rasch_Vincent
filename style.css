@@ -1,0 +1,95 @@
+
+
+.hero {
+    height: 600px;
+    background: url('../img/banner_fruits.png') no-repeat center bottom / cover;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: rgba(2, 138, 158, 0.75); 
+    color: white;
+    font-size: 2.5rem; 
+    font-weight: bold;
+    font-variant: small-caps; 
+    
+    text-shadow: 3px 3px 5px black;
+
+    border-radius: 50%; 
+    border: 10px double white; 
+}
+
+
+.lego {
+    border: 1px dotted rgb(2, 138, 158); 
+    margin-bottom: 15px;
+}
+
+.lego summary {
+    background-color: rgb(2, 138, 158); 
+    color: white;
+    font-weight: bold; 
+    font-style: italic; 
+    padding: 10px;
+}
+
+.lego p {
+    background-color: rgba(2, 138, 158, 0.2); 
+    padding: 10px;
+}
+
+.lego p strong {
+    font-weight: bold; 
+}
+
+
+#info-elements {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-box {
+    width: 18%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid white;
+    text-align: center;
+    background-color: rgb(2, 138, 158); 
+    color: white;
+}
+
+.info-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#kaloria { background-color: rgb(2, 138, 158); }
+#zsir { background-color: rgb(6, 116, 20); }
+#rost { background-color: rgb(17, 32, 165); }
+#feherje { background-color: rgb(147, 33, 192); }
+#szen { background-color: rgb(151, 23, 23); }
+
+.info-box p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .info-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
